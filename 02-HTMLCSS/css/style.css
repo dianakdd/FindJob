@@ -1,0 +1,38 @@
+.container {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px 50px;
+    min-height: 100px;
+    width: 80%;
+    box-shadow: 1px 1px 10px -1px rgba(105,104,104,0.93);
+    -webkit-box-shadow: 1px 1px 10px -1px rgba(105,104,104,0.93);
+    -moz-box-shadow: 1px 1px 10px -1px rgba(105,104,104,0.93);
+    border-radius: 14px;
+}
+
+.article {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 100px;
+    width: 100%;
+    box-shadow: -1px 8px 10px -4px rgba(191,191,191,0.92);
+    -webkit-box-shadow: -1px 8px 10px -4px rgba(191,191,191,0.92);
+    -moz-box-shadow: -1px 8px 10px -4px rgba(191,191,191,0.92);
+}
+
+button {
+    background-color :#A149FA;
+    border: none;
+    color: white;
+    padding: 14px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+}
