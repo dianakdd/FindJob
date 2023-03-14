@@ -1,18 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Tugas6 from './tugas6/tugas6';
+import Tugas7 from './tugas7/tugas7';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div className="Container">
-          <div className="Title">Hi, saya Diana</div>
-          <br />
-          <hr />
-          <p>Saya dari Batch 43 sudah berhasil menginstal React</p>
-        </div>
-      </header>
-    </div>
+const App = () => {
+  return(
+    <>
+      <Tugas6/>
+      <Tugas7 name="Diana Kusuma" batch="43" email="diaanakd@gmail.com"/>
+    </>
   );
 }
 
